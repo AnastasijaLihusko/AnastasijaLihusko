@@ -141,15 +141,15 @@ h1 {
 }
 
 .image-main-1 {
-  background-image: url("img/IMG-20240207-WA0018.jpg");
+  background-image: url("./img/IMG-20240207-WA0018.jpg");
 }
 
 .image-main-2 {
-  background-image: url("img/IMG-20240207-WA0022.jpg");
+  background-image: url("./img/IMG-20240207-WA0022.jpg");
 }
 
 .image-main-3 {
-  background-image: url("img/IMG-20240207-WA0029.jpg");
+  background-image: url("./img/IMG-20240207-WA0029.jpg");
 }
 
 .container-footer {
