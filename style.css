@@ -1,0 +1,249 @@
+body {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  font-family: sans-serif;
+}
+nav a {
+  text-align: right;
+  color: rgb(66, 61, 61);
+}
+p {
+  color: rgb(8, 8, 8);
+  padding-bottom: 15px;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 110px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.navbar .container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.navbar-menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.navbar-menu li {
+  display: inline-block;
+}
+.navbar-menu li a {
+  display: inline-block;
+  color: #000;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.07s ease-in-out;
+}
+.navbar-menu li a:hover {
+  opacity: 1;
+}
+.navbar-menu li a.active {
+  color: red;
+}
+.navbar-wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.callback {
+  margin-left: 50px;
+  padding: 20px 30px;
+  background-color: #ff2525;
+  border-radius: 100px;
+  color: aliceblue;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+.callback:hover {
+  transform: scale(1.04);
+  color: aliceblue;
+}
+.navbar-brand {
+  color: black;
+}
+.navbar-brand:hover {
+  color: #fa8424;
+  transition: all 0.07s ease-in-out;
+}
+.img {
+  margin: 0px auto 0px 80px;
+  display: block;
+  border-top-left-radius: 100px 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.content {
+  padding-bottom: 90px;
+}
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer {
+  background-color: #f82121;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container-taste {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.styled-text {
+  color: #ff2525;
+  font-family: "Dancing Script", cursive;
+  font-size: 26px;
+  margin: 0 10px;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: center;
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 350px;
+}
+
+.image-main {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-main-1 {
+  background-image: url("img/IMG-20240207-WA0018.jpg");
+}
+
+.image-main-2 {
+  background-image: url("img/IMG-20240207-WA0022.jpg");
+}
+
+.image-main-3 {
+  background-image: url("img/IMG-20240207-WA0029.jpg");
+}
+
+.container-footer {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  color: white;
+  font-size: 18px;
+}
+
+.social-media {
+  display: block;
+}
+
+.social-media a {
+  text-decoration: none !important;
+  margin-left: 10px;
+}
+
+.center-pinteres-text {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.cena {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.center {
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.container-zakaz {
+  padding: 80px;
+  font-size: 20px;
+}
+
+.container-zakaz summary {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.container-kontakti {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+  align-items: center;
+}
+.container-kontakti a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.container-kontakti .fa {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+iframe {
+  padding: 30px;
+}
+
+.table-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+td:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+table {
+  width: 50%;
+}
